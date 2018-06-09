@@ -1,74 +1,60 @@
 <!DOCTYPE html>
-
-
 <html lang="en-us">
-
 <head>
-  <meta charset="utf-8">
-  <title>Rethink</title>
-  <!--Stylesheet-->
-  <link href="../css/style.css" rel="stylesheet" type="text/css" />
-  <!--Pure Grid CSS-->
-  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous"> 
-<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css"> 
-<!--JQuery-->
-  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+	<link href="../images/ovature_logo_large.jpg" rel="icon">
+	<title>Rethink</title><!--Stylesheet-->
+	<link href="../css/style.css" rel="stylesheet" type="text/css"><!--Pure Grid CSS-->
+	<link href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" rel="stylesheet">
+	<link href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css" rel="stylesheet"><!--JQuery-->
+	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+	<!--Primary Nav-->
+	<div class="topnav" id="myTopnav">
+		<a href="../index.html">OVATURE</a> <a href="aboutme.html#form">CONTACT ME</a> <a href="aboutme.html">ABOUT ME</a> <!--Responsive Menu-->
+		 <a class="icon" href="javascript:void(0);" onclick="myFunction()" style=" font-size:14px;">&#9776;</a>
+	</div>
+	
+	<div class="portfolio gutter">
+		<div class="section pure-g">
+			<div class="section-paragraph pure-u-1">
+				<h1>RETHINK</h1>
+				<h2>A Vibe Summer Series</h2>
+			</div>
+			<div class="section-paragraph pure-u-1">
+				<p>A series of Instagram designs advertising the summer sessions and summer retreat.</p>
+			</div>
+			<div class="pure-u-1 pure-u-md-1-4">
+				<a class="thumb" href="../images/rethink1.png"><img alt="hearing-from-god" class="pure-img" src="../images/rethink1.png"></a>
+			</div>
+			<div class="pure-u-1 pure-u-md-1-4">
+				<a class="thumb" href="../images/rethink2.png"><img alt="developing-a-biblical-worldview" class="pure-img" src="../images/rethink2.png"></a>
+			</div>
+			<div class="pure-u-1 pure-u-md-1-4">
+				<a class="thumb" href="../images/rethink3.png"><img alt="knowing-your-calling" class="pure-img" src="../images/rethink3.png"></a>
+			</div>
+			<div class="pure-u-1 pure-u-md-1-4">
+				<a class="thumb" href="../images/rethink4.png"><img alt="retreat" class="pure-img" src="../images/rethink4.png"></a>
+			</div>
+			<div class="pure-u-1 pure-u-md-1-3">
+				<a class="thumb" href="../images/rethink5.png"><img alt="instagram" class="pure-img" src="../images/rethink5.png"></a>
+			</div>
+			
+		</div>
+		
+	</div>
 
-		<!--Primary Nav-->
-  
-      <div class="topnav" id="myTopnav">
-  <a href="../index.html">OVATURE</a>
-  <a href="aboutme.html#form">CONTACT ME</a>
-  <a href="aboutme.html">ABOUT ME</a>
-  <!--Responsive Menu-->
-  <a href="javascript:void(0);" style="  font-size:14px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-
-   <div class="portfolio gutter">
-     <div class="section pure-g">
-    <div class="pure-u-1"><h1>RETHINK</h1><h2>A Vibe Summer Series</h2></div>
-	 <div class="pure-u-1"><p>A series of 4 Instagram designs commissioned by the Vibe Media Leader to advertise and create awareness of the sessions running during the summer break.</p></div>
-    
-	    <div class="pure-u-1 pure-u-md-1-4">
-                        <a href="../images/rethink1.png" class="thumb">
-                            <img src="../images/rethink1.png" class="pure-img" alt="1" /> 
-                      </a>
-                    </div>
-		<div class="pure-u-1 pure-u-md-1-4">
-                        <div class="thumb">
-						<a href="../images/rethink2.png" class="thumb">
-                            <img src="../images/rethink2.png" class="pure-img" alt="2" /> 
-							</a>
-                      </div>
-                    </div>
-					<div class="pure-u-1 pure-u-md-1-4">
-                        <a href="../images/rethink3.png" class="thumb">
-                            <img src="../images/rethink3.png" class="pure-img" alt="3" /> 
-                      </a>
-                    </div>
-					<div class="pure-u-1 pure-u-md-1-4">
-                        <a href="../images/rethink4.png" class="thumb">
-                            <img src="../images/rethink4.png" class="pure-img" alt="4" /> 
-                      </a>
-                    </div>
-					
-		</div> 
-
-</div> 
-  
-  <script>
-// Responsive Nav //
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
-          </body>
-
+	<script>
+	// Responsive Nav //
+	function myFunction() {
+	   var x = document.getElementById("myTopnav");
+	   if (x.className === "topnav") {
+	       x.className += " responsive";
+	   } else {
+	       x.className = "topnav";
+	   }
+	}
+	</script>
+</body>
 </html>
