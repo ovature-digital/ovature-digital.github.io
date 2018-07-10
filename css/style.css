@@ -22,13 +22,13 @@ ul {}
 	font-family: 'Helvetica', sans-serif;
 	font-size: 14px;
 	font-weight: bold;
-	color: #57bca7;
+	color: #e7f0fd;
 }
 .topnav .icon {
 	display: none;
 }
 .topnav a:hover:not(.active) {
-	opacity: 0.3;
+	opacity: 0.7;
 }
 .active {
 	color: #063644;
@@ -133,21 +133,21 @@ h1 {
 	text-align: center;
 	font-family: 'Helvetica', sans-serif;
 	letter-spacing: 0.09em;
-	color: #fff;
+	color: #e7f0fd;
 }
 h2 {
 	text-align: center;
-	font-family: 'helvetica', sans-serif;
+	font-family: 'helvetica neue', sans-serif;
 	font-size: 14pt;
-	letter-spacing: 0.05em;
-	color: #fff;
+	letter-spacing: 0.08em;
+	color: #e7f0fd;
 	margin: 0px;
 }
 p {
 	color: #fff;
 	letter-spacing: 0.05em;
 	word-spacing: 0.07em;
-	font-family: 'helvetica', sans-serif;
+	font-family: 'helvetica neue', sans-serif;
 	font-size: 10pt;
 	margin: 0px;
 }
