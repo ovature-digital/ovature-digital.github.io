@@ -37,7 +37,7 @@ body{}
 	color: #063644;
 }
 
-@media screen and (max-width: 978px) {
+@media screen and (max-width: 1296px) {
 	.topnav a {
 		padding: 14px 16px;
 		text-decoration: none;
@@ -175,8 +175,8 @@ p {letter-spacing:0.5pt;}
   font-size: 12pt;
   line-height:18pt;
   text-align: justify;
-  padding:0 500px 0 500px;
-  margin: 50px 0px 50px 0px;
+  padding:0 450px 0 450px;
+  margin:50px 0px 50px 0px;
 }
 
 .copy {
