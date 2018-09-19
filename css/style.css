@@ -42,7 +42,7 @@ body{}
 		padding: 14px 16px;
 		text-decoration: none;
 		word-spacing: 2px;
-		font-size: 20px;
+		font-size: 50px;
 	}
 
 	.topnav a:not(:first-child) {
@@ -76,10 +76,13 @@ body{}
 		text-align: left;
 	}
 
-	intro-copy {padding:100px!important;}
+	intro-copy {padding:100px!important;font-size:25pt!important;}
 	#intro-section {padding:10px;}
 	#showreel{height:480px!important;width:80%!important;}
-	.des {padding:75px!important;}
+	.des {padding:75px!important;font-size:25pt!important;}
+	.button {font-size:25!important;padding: 30px 60px!important;}
+	
+	.foot-text {font-size: 14pt!important;}
 
 }
 /*Media End*/
