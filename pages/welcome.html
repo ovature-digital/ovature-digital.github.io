@@ -1,54 +1,53 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="../images/ovature_logo_large.jpg" rel="icon">
-	<title>Welcome Pack</title><!--Stylesheet-->
-	<link href="../css/style.css" rel="stylesheet" type="text/css"><!--Pure Grid CSS-->
-	<link href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" rel="stylesheet">
-	<link href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css" rel="stylesheet"><!--JQuery-->
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>Welcome Pack</title>
+	<link href="../images/ovature_logo_large.jpg" rel="icon"><!--Stylesheet-->
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
+  <!--Pure Grid CSS-->
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/base-min.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-min.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css"><!--Social Media-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"><!--JQuery-->
 	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<!--Primary Nav-->
 	<div class="topnav" id="myTopnav">
-		<a href="../index.html">OVATURE</a> <a href="aboutme.html#form">CONTACT ME</a> <a href="aboutme.html">ABOUT ME</a> <!--Responsive Menu-->
-		 <a class="icon" href="javascript:void(0);" onclick="myFunction()" style=" font-size:14px;">&#9776;</a>
-	</div>
-	<div class="portfolio gutter">
-		<div class="section pure-g">
-			<div class="section-paragraph pure-u-1">
-				<h1>WELCOME PACK</h1>
-				<h2>Two A6 double-sided flyer designs for Vibe’s 2017 Welcome Pack.</h2>
-			</div>
-			<div class="section-paragraph pure-u-1">
-				<p>With a large influx of new visitors each week, Vibe hands each newcomer a small gift to welcome them to the family. 
-James Benjamin and Ps. Amos Ngoi wanted to revamp the design of the current 'Welcome Pack' with updated cultural pillars and information accompanied by snacks and collateral.</p>
-			</div>
-			<div class="pure-u-1 pure-u-md-2-3">
-				<a class="thumb" href="../images/welcome1_full.jpg"><img alt="1" class="pure-img" src="../images/welcome1_full.jpg"></a>
-			</div>
-			<div class="pure-u-1 pure-u-md-2-3">
-				<div class="thumb">
-					<a class="thumb" href="../images/welcome2_full.jpg"><img alt="2" class="pure-img" src="../images/welcome2_full.jpg"></a>
-				</div>
-			</div>
-			<div class="pure-u-1 pure-u-md-2-3">
-				<a class="thumb" href="../images/welcome1_full.jpg"><img alt="3" class="pure-img" src="../images/welcome3_full.jpg"></a>
+		<a href="../index.html"><img alt="logo" src="../images/logow.png" width="15px"></a> <a href="../index.html">Home</a> <a href="../index.html">Projects</a> <a href="../index.html">About Me</a> <a href="../index.html">Contact Me</a> <!--Responsive Menu-->
+		 <a class="icon" href="javascript:void(0);" onclick="myFunction()" style="font-size:14px;">&#9776;</a>
+	</div><!--Anchors for the nav to jump to-->
+
+	<!--Anchor-->
+	<div id="ap0">
+   <div class="contact-me">
+    <h2>Welcome Pack</h2>
+    <p class="subtitle">Two A6 double-sided flyer designs for Vibe’s 2017 Welcome Pack.</p>
+		<div class="pure-g">
+					<div class="pure-u-1 pure-u-lg-1"><p class="copy">With a large influx of new visitors each week, Vibe hands each newcomer a small gift to welcome them to the family. James Benjamin and Ps. Amos Ngoi wanted to revamp the design of the current 'Welcome Pack' with updated cultural pillars and information accompanied by snacks and collateral.</p></div>
+							<a class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2" href="../images/welcome1_full.jpg"><img src="../images/welcome1_full.jpg" width="500"></a>
+							<a class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2" href="../images/welcome2_full.jpg"><img src="../images/welcome2_full.jpg" width="500"></a>
+							<div class="pure-u-1"><p class="copy">To view this project in Behance and for other work,<a style="text-decoration:none;" href="https://www.behance.net/gallery/61896927/2017-Vibe-Welcome-Pack"> click here.</a></p></div>
+							<br><br>
+							
+
+</div>
+
+    </div>
+  </div>
+</div>
+
+	<footer>
+		<div class="pure-g">
+			<div style="padding:10px">
+				<a class="fa fa-behance" href="https://www.behance.net/harrisonjonesgd"></a> <a class="fa fa-facebook" href="https://www.facebook.com/Harry-Jones-225901544766111/"></a> <a class="fa fa-linkedin" href="https://www.linkedin.com/in/harrison-jones-a35a94135/"></a> <a class="fa fa-instagram" href="https://www.instagram.com/ovature.tk/"></a>
+				<p class="foot-text">© Harry Jones. All Rights Reserved</p>
 			</div>
 		</div>
-	</div>
-	<script>
-	// Responsive Nav //
-	function myFunction() {
-	   var x = document.getElementById("myTopnav");
-	   if (x.className === "topnav") {
-	       x.className += " responsive";
-	   } else {
-	       x.className = "topnav";
-	   }
-	}
-	</script>
+	</footer>
+	<!--javascript-->
+	<script src="js/javascript.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 </html>
