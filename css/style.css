@@ -79,11 +79,14 @@ body{}
 	intro-copy {padding:100px!important;font-size:25pt!important;}
 	#intro-section {padding:10px;}
 	#showreel{height:480px!important;width:80%!important;}
-	.des {padding:75px!important;font-size:25pt!important;}
+	.des {padding:75px!important;font-size:25pt!important;line-height:25pt!important;}
+	.copy {padding:75px!important;font-size:25pt!important;line-height:25pt!important;}
 	.button {font-size:25!important;padding: 30px 60px!important;}
 	
 	.foot-text {font-size: 14pt!important;}
-
+	
+	#the-logo {width:40px;}
+	a {font-size: 25pt!important;}
 }
 /*Media End*/
 
@@ -127,9 +130,6 @@ iframe {width:100%;height:100%;}
 }
 
 .logo{width:3%;height:3%;padding:20px}
-
-#big-logo {text-align:centre;width:100%;padding-left:46%;padding-top:50px;}
-
 
 .pure-g img {width:100%;padding:50px;transition: 0.7s;}
 img:hover {opacity:0.3;}
